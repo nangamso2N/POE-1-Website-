@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Sweet Cravings Bakery</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* ====== Hero Section ====== */
+        .hero {
+            background: url('images/background.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 6rem 2rem;
+            position: relative;
+        }
+        .hero-text h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+        }
+        .hero-text p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .btn {
+            background-color: #8b5e3c;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: transform 0.3s, background 0.3s;
+        }
+        .btn:hover {
+            background-color: #a66d47;
+            transform: scale(1.1);
+        }
+
+        /* ====== Owner Section ====== */
+        .owner-section {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: #fdd1d3;
+            border-radius: 20px;
+            margin: 2rem auto;
+            max-width: 900px;
+        }
+        .owner-section h2 {
+            font-size: 2rem;
+            color: #8b5e3c;
+            margin-bottom: 1rem;
+        }
+        .owner-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            transition: transform 0.5s;
+            cursor: pointer;
+        }
+        /* Animate when clicked or hovered */
+        .owner-pic:hover {
+            transform: scale(1.2) rotate(10deg);
+        }
+
+        /* ====== Company Info ====== */
+        .company-info {
+            max-width: 700px;
+            margin: 2rem auto;
+            font-size: 1.1rem;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* ====== Responsive ====== */
+        @media (max-width: 768px) {
+            .hero-text h2 {
+                font-size: 2rem;
+            }
+            .owner-pic {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Sweet Cravings Bakery</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-text">
+        <h2>Welcome to Sweet Cravings Bakery</h2>
+        <p>Serving joy in every baked creation. Freshly made with love for Cape town and beyond.</p>
+        <a href="about.html" class="btn">Learn More About Us</a>
+    </div>
+</section>
+
+<!-- Owner Section -->
+<section class="owner-section">
+    <h2>Meet Our Owner</h2>
+    <img src="images/owner.jpg" alt="Owner of Sweet Cravings Bakery" class="owner-pic">
+    <div class="company-info">
+        <p>Founded in 2017, Sweet Cravings Bakery is run by <strong>Nangamso Ngcuka
+</strong>, a passionate baker dedicated to creating happiness through delicious cakes, pastries, and bread. Jane believes in quality, creativity, and personal touch in every order.</p>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="cta" style="text-align:center; padding:3rem 2rem;">
+    <h2>Get in Touch!</h2>
+    <p>Custom cakes, bulk orders, and special occasions – we make your celebrations sweeter.</p>
+    <a href="enquiry.html" class="btn">Place an Enquiry</a>
+</section>
+
+<footer>
+    <p>© 2025 Sweet Cravings Bakery</p>
+</footer>
+
+</body>
+</html>
